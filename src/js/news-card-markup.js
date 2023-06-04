@@ -67,7 +67,6 @@ function cutAbstractAddPoints(abstract_news, maxLength) {
     return abstract_news;
   }
 }
-
 function renderNewDateFormat(publish_date) {
   let date = new Date(publish_date);
 
